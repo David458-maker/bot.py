@@ -29,4 +29,4 @@ async def add(ctx, left: int, right: int):
     """Adds two numbers together."""
     await ctx.send(left + right)
 
-bot.run("MTI4OTI2ODI0NzkyMDY0NDE1Nw.Gue3eE.6BwdOMDdJVWU_64tHScBlkZu6NOGmvK8eb9O5g")
+bot.run("")
