@@ -33,5 +33,15 @@ async def add(ctx, left: int, right: int):
 async def min(ctx, left: int, right: int):
     """minus two numbers together."""
     await ctx.send(left - right)
+    
+@bot.command()
+async def x(ctx, left: int, right: int):
+    """minus two numbers together."""
+    await ctx.send(left * right)
+
+@bot.command()
+async def d(ctx, left: int, right: int):
+    """minus two numbers together."""
+    await ctx.send(left / right)
 
 bot.run("")
